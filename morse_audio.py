@@ -215,23 +215,6 @@ MORSE_DICT = {
     '5': '.....', '6': '-....', '7': '--...', '8': '---..', '9': '----.',
 }
 
-def text_to_morse_with_audio(text, morse_dict):
-    """
-    Convierte texto a código Morse y opcionalmente reproduce el audio
-    """
-    text = text.upper()
-    morse_code = []
-
-    for char in text:
-        if char in morse_dict:
-            morse_code.append(morse_dict[char])
-        elif char == ' ':
-            morse_code.append('/')
-        else:
-            morse_code.append('?')  # Carácter desconocido
-
-    return ' '.join(morse_code)
-
 # Función de prueba
 def test_audio():
     """

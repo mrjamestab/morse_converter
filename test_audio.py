@@ -4,7 +4,8 @@
 Script de prueba para la funcionalidad de audio de código Morse
 """
 
-from morse import encode_to_morse, play_morse_audio
+from morse import encode_to_morse
+from morse_audio import play_morse_audio
 
 def test_audio():
     """Prueba la reproducción de audio"""
