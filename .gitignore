@@ -118,3 +118,13 @@ temp_tone.wav
 # OS
 .DS_Store
 Thumbs.db
+node_modules/
+*.pyc
+*.pyo
+*.tmp
+.env.local
+yarn-debug.log*
+npm-debug.log*
+.next/
+*.swp
+*.swo
